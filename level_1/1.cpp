@@ -26,7 +26,7 @@ typedef struct
 顺序表类型定义--静态数组定义方式
 typedef struct
 {
-    ElemType elem[]; /MAXSIZE/ 存放元素
+    ElemType elem[MAXSIZE];  // 存放元素
     int length;             // 实际长度;（逻辑位序和物理位序相差1）
 } SqList;
 */
